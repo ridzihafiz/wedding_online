@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar_wrapper">
+        <h1 class="brand">Ridzi & Utari</h1>
+        <menu class="navbar_menu">
+          <a href="#akad">akad</a>
+          <a href="#resepsi">resepsi</a>
+          <a href="#buku_tamu">buku tamu</a>
+          <a href="#map">map</a>
+        </menu>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- HERO -->
+      <div class="hero">
+        <p>Pernikahan</p>
+        <h1>Ridzi & Utari</h1>
+        <p>Nashville, 7 Maret 2023</p>
+      </div>
+
+      <!-- AKAD -->
+      <section id="akad">
+        <h1 class="section_title">Akad Nikah</h1>
+        <div class="section_wrapper">
+          <div class="section_content">
+            <h2>Nashville, 7 Maret 2023</h2>
+            <p>S 18th St No 37</p>
+            <h2>08:00</h2>
+          </div>
+          <div class="section_image"></div>
+        </div>
+      </section>
+
+      <!-- RESEPSI -->
+      <section id="resepsi">
+        <h1 class="section_title">Resepsi</h1>
+        <div class="section_wrapper">
+          <div class="section_image"></div>
+          <div class="section_content">
+            <h2>Nashville, 7 Maret 2023</h2>
+            <p>S 18th St No 37</p>
+            <h2>11:00 - 14:00</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- BUKU TAMU -->
+      <section id="buku_tamu">
+        <h1 class="section_title">Buku Tamu</h1>
+        <div class="form_wrapper">
+          <form class="form_buku_tamu" autocomplete="off">
+            <div class="form_group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" />
+            </div>
+
+            <div class="form_group">
+              <label for="address">Alamat</label>
+              <input type="address" id="address" />
+            </div>
+
+            <div class="form_group">
+              <label for="phone">HP</label>
+              <input type="tel" id="phone" />
+            </div>
+
+            <div class="form_group">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- MAP -->
+      <section id="map">
+        <h1 class="section_title">Map</h1>
+        <div class="section_wrapper">
+          <div class="section_content">
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> location_on </span>
+              Dapatkan Lokasi
+            </button>
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> calendar_month </span>
+              Simpan ke Kalendar
+            </button>
+            <button class="btn_map">
+              <span class="material-symbols-outlined"> share </span>
+              Share ke Instagram
+            </button>
+          </div>
+
+          <!-- IFRAME MAP -->
+          <div class="section_map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4867.686614368273!2d-86.61033976126404!3d36.069056971298224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8863f9c2f3b77733%3A0xa21e876467135b6a!2sVlaux!5e0!3m2!1sen!2sid!4v1661090181562!5m2!1sen!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery">
+        <h1 class="section_title">Gallery</h1>
+        <div class="section_wrapper">
+          <div class="gallery_list">
+            <img
+              src="https://images.pexels.com/photos/4544815/pexels-photo-4544815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="gallery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/4015005/pexels-photo-4015005.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2"
+              alt="gallery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/6167344/pexels-photo-6167344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="gallery pertama"
+            />
+          </div>
+          <div class="gallery_list">
+            <img
+              src="https://images.pexels.com/photos/5779135/pexels-photo-5779135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="gallery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/7099867/pexels-photo-7099867.jpeg?auto=compress&cs=tinysrgb&w=560&h=450&dpr=2"
+              alt="gallery pertama"
+            />
+            <img
+              src="https://images.pexels.com/photos/8557034/pexels-photo-8557034.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt="gallery pertama"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Ridzi & Utari</h3>
+    </footer>
+    
+  </body>
+</html>
